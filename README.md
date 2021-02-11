@@ -12,10 +12,10 @@ To help with the decision of an investor to launch an ice cream/surf shop in Oah
       - dec_results = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date)==12).all()
       
   2. Using the panadas describe function, here are the summary statistics for the June temperature DataFrame.
-      ![Surf Ice Cream](https://github.com/RyanWhited/surfs_up/blob/main/resources/june_summary.png)
+  ![Surf Ice Cream](https://github.com/RyanWhited/surfs_up/blob/main/resources/june_summary.png)
       
   3. Using the panadas describe function, here are the summary statistics for the December temperature DataFrame.
-      ![Surf Ice Cream](https://github.com/RyanWhited/surfs_up/blob/main/resources/dec_summary.png)
+  ![Surf Ice Cream](https://github.com/RyanWhited/surfs_up/blob/main/resources/dec_summary.png)
       
 ## Summary
 - Based on these results, the average temperature for both months is low to mid 70s. Not too hot so your ice cream won't melt in the sun in seconds and not too cold to enjoy this cold treat year round on the beach!
