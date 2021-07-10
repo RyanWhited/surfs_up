@@ -1,7 +1,7 @@
 # Surfs_Up Challenge
 ![Surf Ice Cream](https://github.com/RyanWhited/surfs_up/blob/main/resources/surf_ice_cream.jpg)
 ## Overview
-To help with the decision of an investor to launch an ice cream/surf shop in Oahu, HI, I analyzed preciptation and temperature data from multiple stations dating between the years 2010 - 2017. In this challenge, the investor specifically wanted the temperature data for the months of June and December in Oahu in order to determine if the surf and ice cream shop business is sustainable year-round.
+To help with the decision of an investor to launch an ice cream/surf shop in Oahu, HI, I analyzed preciptation and temperature data from multiple stations dating between the years 2010 - 2017. The investor specifically wanted the temperature data for the months of June and December in Oahu in order to determine if the surf and ice cream shop business is sustainable year-round.
 
 ## Results
   1. Using the extract function from SQLAlchemy I was able to pull out the specified data for the months of June and December. 
